@@ -118,6 +118,7 @@
   font-weight: bold;
 }
 
+/* Project section */
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
@@ -187,3 +188,84 @@ footer {
   font-size: 0.9em;
 }
 
+/* Contact Section */
+.contact-section {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.contact-section h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #007acc;
+}
+
+.contact-section p {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  padding: 12px;
+  background-color: #007acc;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #005f99;
+}
+
+.contact-info {
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.contact-info h3 {
+  margin-bottom: 15px;
+  color: #007acc;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+  color: #333;
+}
+
+.contact-info ul li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.contact-info a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
